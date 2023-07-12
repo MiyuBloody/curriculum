@@ -1,0 +1,9 @@
+<div class="container mt-3 posicion" *ngFor="let item of tecnologias">
+  <div class="card" style="width: 18rem;">
+    <img src="{{item.imagen}}" alt="">
+    <div class="card-body">
+      <h3 class="card-title ">{{item.nombre}}</h3>
+      <p class="card-text">{{item.nivel}}.</p>
+    </div>
+  </div>
+</div>

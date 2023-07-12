@@ -1,0 +1,93 @@
+{
+  "laboral": [
+    {
+      "empresa": "Capgemini",
+      "fechas": "Octubre 22 - Enero 23",
+      "puesto": "Prácticas CFGS DAM",
+      "tareas": "Desarrollo de aplicación web con Angular y Springboot"
+    }
+  ],
+  "educativa":[
+    {
+      "institucion": "Ilerna Online",
+      "terminado": "Junio de 2023",
+      "estudios": "CFGS Desarrollo de apliaciones multiplataforma"
+    },
+    {
+      "institucion": "Fundación Adecco",
+      "terminado": "Cursando",
+      "estudios": "Curso Frontend Developer con Angular"
+    }
+  ],
+  "tecnologias": [
+    {
+      "nombre":"Angular",
+      "nivel":"Medio",
+      "imagen": "../../assets/img/angular.png"
+    },
+    {
+      "nombre":"JavaScript",
+      "nivel":"Medio",
+      "imagen": "../../assets/img/javaScript.png"
+    },
+    {
+      "nombre":"CSS",
+      "nivel":"Medio",
+      "imagen": "../../assets/img/css.png"
+    },
+    {
+      "nombre":"HTML",
+      "nivel":"Medio",
+      "imagen": "../../assets/img/html.png"
+    },
+    {
+      "nombre":"Kotlin",
+      "nivel":"Medio",
+      "imagen": "../../assets/img/kotlin.png"
+    },
+    {
+      "nombre":"Java",
+      "nivel":"Medio",
+      "imagen": "../../assets/img/java.png"
+    }
+
+  ],
+  "ides":[
+  {
+    "nombre": "Visual Studio Code"
+  },
+  {
+    "nombre": "Android Studio"
+  },
+  {
+    "nombre": "IntelliJ"
+  },
+  {
+    "nombre": "Eclipse"
+  }
+],
+"herramientas":[
+  {
+    "nombre": "Git"
+  },
+  {
+    "nombre": "GitHub"
+  },
+  {
+    "nombre": "Sourcetree"
+  },
+  {
+    "nombre": "Firebase"
+  },
+  {
+    "nombre": "Figma"
+  },
+  {
+    "nombre": "Trello"
+  },
+  {
+    "nombre": "Notion"
+  }
+]
+}
+

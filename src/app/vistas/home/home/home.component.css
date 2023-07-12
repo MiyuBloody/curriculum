@@ -1,0 +1,10 @@
+.centrar{
+  display: flex;
+  justify-content: center;
+}
+.color{
+  color:#01579b;
+}
+a{
+  color: black
+}
