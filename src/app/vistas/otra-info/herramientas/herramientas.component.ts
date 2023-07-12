@@ -1,11 +1,11 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 @Component({
   selector: 'app-herramientas',
   templateUrl: './herramientas.component.html',
   styleUrls: ['./herramientas.component.css']
 })
-export class HerramientasComponent {
+export class HerramientasComponent implements OnInit{
   herramientas!: any[]
 
   constructor(private http: HttpClient){

@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
   templateUrl: './ides.component.html',
   styleUrls: ['./ides.component.css']
 })
-export class IDESComponent implements OnInit {
+export class IDESComponent implements OnInit{
   ides!: any[]
 
   constructor(private http: HttpClient){
