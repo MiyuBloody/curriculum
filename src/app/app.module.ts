@@ -10,6 +10,7 @@ import { OtraInfoModule } from './vistas/otra-info/otra-info.module';
 import { NavTopModule } from './vistas/nav-top/nav-top.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeModule } from './vistas/home/home.module';
+import { FooterModule } from './vistas/footer/footer.module';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { HomeModule } from './vistas/home/home.module';
     OtraInfoModule,
     NavTopModule,
     BrowserAnimationsModule,
-    HomeModule
+    HomeModule,
+    FooterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
