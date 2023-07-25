@@ -11,11 +11,13 @@ import { NavTopModule } from './vistas/nav-top/nav-top.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeModule } from './vistas/home/home.module';
 import { FooterModule } from './vistas/footer/footer.module';
+import { LaboralDetailsComponent } from './vistas/laboral-details/laboral-details.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LaboralDetailsComponent
   ],
   imports: [
     BrowserModule,

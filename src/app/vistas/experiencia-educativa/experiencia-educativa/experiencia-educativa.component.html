@@ -1,8 +1,10 @@
-<div class="container mt-3" *ngFor="let item of educativa">
+<div class="container mt-3" *ngFor="let item of educativa" (click)="detalleEducacion(item.id)">
   <div class="card" style="width: 18rem;">
     <div class="card-body">
+      <div *ngIf="eduId === item.id">
       <h3 class="card-title ">{{item.institucion}}</h3>
       <p class="card-text centrar">{{item.terminado}}</p>
+    </div>
       <p class="card-text centrar">{{item.estudios}}</p>
     </div>
   </div>

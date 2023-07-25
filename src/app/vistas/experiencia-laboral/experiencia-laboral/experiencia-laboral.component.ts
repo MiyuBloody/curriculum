@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient} from '@angular/common/http';
+import { Laboral } from 'src/app/interfaces/laboral.model';
 
 @Component({
   selector: 'app-experiencia-laboral',
@@ -9,6 +10,8 @@ import { HttpClient} from '@angular/common/http';
 export class ExperienciaLaboralComponent implements OnInit {
   laboral!: any[];
 
+  _laboral: Laboral[] = []
+  seleccionarLaboral: any
 
   constructor(private http: HttpClient){
 
@@ -18,5 +21,9 @@ export class ExperienciaLaboralComponent implements OnInit {
     this.http.get<any>('../../assets/datos.json').subscribe(data=>{
       this.laboral = data.laboral
     });
+  }
+
+  detalleEmpresa(exLaboral: any){
+    this.seleccionarLaboral = exLaboral
   }
 }

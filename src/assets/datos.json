@@ -9,11 +9,13 @@
   ],
   "educativa":[
     {
+      "id": 1,
       "institucion": "Ilerna Online",
       "terminado": "Junio de 2023",
       "estudios": "CFGS Desarrollo de apliaciones multiplataforma"
     },
     {
+      "id": 2,
       "institucion": "Fundación Adecco",
       "terminado": "Cursando",
       "estudios": "Curso Frontend Developer con Angular"

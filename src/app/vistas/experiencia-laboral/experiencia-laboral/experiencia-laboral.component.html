@@ -1,10 +1,15 @@
-<div class="container mt-3" *ngFor="let item of laboral">
+<div class="container mt-3" *ngFor="let item of laboral" (click)="detalleEmpresa(_laboral)">
   <div class="card" style="width: 18rem;">
     <div class="card-body">
-      <h3 class="card-title ">{{item.empresa}}</h3>
-      <p class="card-text centrar">{{item.fechas}}</p>
+      <h3 class="card-title" >{{item.empresa}}</h3>
+<!--       <p class="card-text centrar">{{item.fechas}}</p>
       <p class="card-text centrar">{{item.puesto}}</p>
-      <p class="card-text centrar">{{item.tareas}}</p>
+      <p class="card-text centrar">{{item.tareas}}</p> -->
+      <div *ngIf="seleccionarLaboral">
+        <p class="card-text centrar">{{item.fechas}}</p>
+        <p class="card-text centrar">{{item.puesto}}</p>
+        <p class="card-text centrar">{{item.tareas}}</p>
+      </div>
     </div>
   </div>
 </div>
